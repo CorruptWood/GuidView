@@ -45,6 +45,8 @@
      * 仅仅只分辨出左滑还是右滑，在引导界面，可以设置滑动最后一页时，滑动跳转到主界面，不需要单独添加跳转按钮
      *
       / 
+      
+      
     interface OnScrollLisntener {
     
         void OnScrollLisntener(int position, int move);
@@ -52,6 +54,8 @@
     }
     
     //同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+    
+    
     interface OnPagerChangerListener {
 
         void onPageScrolled(int position, float positionOffset, int positionOffsetPixels);
@@ -62,12 +66,16 @@
     }
 
     //简化版的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+    
+    
     interface OnPageSelectedListener {
     
         void onPageSelected(int position);
     }
 
     //设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
+    
+    
     interface OnViewPagerItemClickListener{
     
         void OnClick(int position);
@@ -145,13 +153,13 @@
         app:dotLayoutHight="30px"       //小圆点布局的高度，默认是wrap_content
         app:dotLayoutShowMode="center"  //小圆点显示居中
         app:dotMaginLeft="10px"         //小圆点的左间距
-       # app:isBanner="true"            //是否为banner
+        app:isBanner="true"             //是否为banner
         app:dotLayoutWidth="match_parent"/>
 	
    在你觉得合适的地方设置 banner切换的时间和开始轮播
    
    
-   	public void startBanner() {
+       public void startBanner() {
           this.startBanner(3000);
    	 }
 
