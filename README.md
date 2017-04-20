@@ -8,7 +8,9 @@
 
 内置的adapter只支持加载本地资源id和网络图片
 
-本库使用 鸿洋的AutoLayout，基于768x1280 做适配，一定使用px指定圆点的宽高、距下方的距离
+本库使用 鸿洋大神的AutoLayout，基于768x1280 做适配，一定使用px指定圆点的宽高、距下方的距离
+
+鸿洋大神的适配库：https://github.com/hongyangAndroid/AndroidAutoLayout
 
 
 
