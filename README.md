@@ -6,11 +6,10 @@
 
 1.将其添加到存储库末尾的根build.gradle中：
 
-	  allprojects {
-		  repositories {
-		  	...
-        maven { url 'https://jitpack.io' }
-		  }
+	allprojects {
+		repositories {
+        	maven { url 'https://jitpack.io' }
+		}
 	  }
   
 2.添加依赖关系
