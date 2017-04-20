@@ -43,13 +43,15 @@
    滑动监听  move 对应 Custom.LEFT Custom.REGIHT
    仅仅只分辨出左滑还是右滑，在引导界面，可以设置滑动最后一页时，滑动跳转到主界面，不需要单独添加跳转按钮
    
+   
        interface OnScrollLisntener {
     
          void OnScrollLisntener(int position, int move);
 	
        }
     
-    同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+   同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+    
     
         interface OnPagerChangerListener {
 
@@ -60,14 +62,16 @@
           void onPageScrollStateChanged(int state);
         }
 
-    简化版的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+   简化版的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+    
     
         interface OnPageSelectedListener {
     
           void onPageSelected(int position);
         }
 
-    设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
+   设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
+    
     
         interface OnViewPagerItemClickListener{
     
