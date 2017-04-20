@@ -18,6 +18,7 @@
         app:showDot="true"/>
 
     <TextView
+        android:visibility="gone"
         android:id="@+id/skip"
         android:layout_width="180px"
         android:layout_height="80px"

@@ -129,6 +129,14 @@ public class GuidActivity extends AutoLayoutActivity {
                     }
                 }
             });
+
+            //此监听为setOnPagerChangerListener的简化版
+            guidView.setOnPageSelectedListener(new CustomView.OnPageSelectedListener() {
+                @Override
+                public void onPageSelected(int position) {
+
+                }
+            });
         }
 
         if(extra==7){
