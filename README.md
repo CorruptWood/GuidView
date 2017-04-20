@@ -4,6 +4,12 @@
 
 支持自定义viewpager的adapter，支持自定义圆点显示样式
 
+# 效果图
+
+模拟器比较卡顿，见谅，电脑性能有些差
+
+<img src="https://github.com/CorruptWood/GuidView/blob/master/guidView.gif"/>
+
 # 注意
 
 内置的adapter只支持加载本地资源id和网络图片
