@@ -8,7 +8,7 @@
 
 模拟器比较卡顿，见谅，电脑性能有些差
 
-<img src="https://github.com/CorruptWood/GuidView/blob/master/guidView.gif"/>
+<img src="https://github.com/CorruptWood/GuidView/blob/master/guidView.gif" width=480 hight=800/>
 
 # 注意
 
