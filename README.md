@@ -43,8 +43,6 @@
 滑动监听  move 对应 Custom.LEFT Custom.REGIHT
 仅仅只分辨出左滑还是右滑，在引导界面，可以设置滑动最后一页时，滑动跳转到主界面，不需要单独添加跳转按钮
 
-
-
    
  	interface OnScrollLisntener {
 	
@@ -141,18 +139,21 @@
     
  ③：使用banner，如果需要做banner,必须设置属性 isBanner=true
  
+ 
  	<com.zdm.guidview.GuidView
         	android:id="@+id/guid_view"
         	android:layout_width="match_parent"
         	android:layout_height="360px"   
-       		app:dotMaginBottom="30px"  \<br>     
-        	app:dotSize="20px"          \<br>   
-        	app:showDot="true"           \<br>   
-       	 	app:dotLayoutHight="30px"    \<br>   
-        	app:dotLayoutShowMode="center" \<br> 
-        	app:dotMaginLeft="10px"        \<br> 
-        	app:isBanner="true"             \<br>
+       		app:dotMaginBottom="30px"      
+        	app:dotSize="20px"            
+        	app:showDot="true"             
+       	 	app:dotLayoutHight="30px"     
+        	app:dotLayoutShowMode="center"
+        	app:dotMaginLeft="10px"        
+        	app:isBanner="true"             
         	app:dotLayoutWidth="match_parent"/>
+		
+		
 		
 	
    在你觉得合适的地方设置 banner切换的时间和开始轮播
