@@ -141,20 +141,19 @@
     
  ③：使用banner，如果需要做banner,必须设置属性 isBanner=true
  
- <pre><code>	
- <com.zdm.guidview.GuidView
+ 	<com.zdm.guidview.GuidView
         	android:id="@+id/guid_view"
         	android:layout_width="match_parent"
         	android:layout_height="360px"   
-       		app:dotMaginBottom="30px"       
-        	app:dotSize="20px"             
-        	app:showDot="true"              
-       	 	app:dotLayoutHight="30px"       
-        	app:dotLayoutShowMode="center"  
-        	app:dotMaginLeft="10px"         
-        	app:isBanner="true"             
+       		app:dotMaginBottom="30px"  \<br>     
+        	app:dotSize="20px"          \<br>   
+        	app:showDot="true"           \<br>   
+       	 	app:dotLayoutHight="30px"    \<br>   
+        	app:dotLayoutShowMode="center" \<br> 
+        	app:dotMaginLeft="10px"        \<br> 
+        	app:isBanner="true"             \<br>
         	app:dotLayoutWidth="match_parent"/>
-		</code></pre>
+		
 	
    在你觉得合适的地方设置 banner切换的时间和开始轮播
    
