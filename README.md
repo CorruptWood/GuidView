@@ -40,46 +40,39 @@
 
 1.本库有4个接口回调:
 
-    /**
-     * 滑动监听  move 对应 Custom.LEFT Custom.REGIHT
-     * 仅仅只分辨出左滑还是右滑，在引导界面，可以设置滑动最后一页时，滑动跳转到主界面，不需要单独添加跳转按钮
-     *
-      / 
-      
-      
-    interface OnScrollLisntener {
+   滑动监听  move 对应 Custom.LEFT Custom.REGIHT
+   仅仅只分辨出左滑还是右滑，在引导界面，可以设置滑动最后一页时，滑动跳转到主界面，不需要单独添加跳转按钮
+   
+       interface OnScrollLisntener {
     
-        void OnScrollLisntener(int position, int move);
+         void OnScrollLisntener(int position, int move);
 	
-    }
+       }
     
-    //同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+    同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
     
-    
-    interface OnPagerChangerListener {
+        interface OnPagerChangerListener {
 
-        void onPageScrolled(int position, float positionOffset, int positionOffsetPixels);
+          void onPageScrolled(int position, float positionOffset, int positionOffsetPixels);
 
-        void onPageSelected(int position);
+          void onPageSelected(int position);
 
-        void onPageScrollStateChanged(int state);
-    }
+          void onPageScrollStateChanged(int state);
+        }
 
-    //简化版的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+    简化版的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
     
+        interface OnPageSelectedListener {
     
-    interface OnPageSelectedListener {
-    
-        void onPageSelected(int position);
-    }
+          void onPageSelected(int position);
+        }
 
-    //设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
+    设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
     
+        interface OnViewPagerItemClickListener{
     
-    interface OnViewPagerItemClickListener{
-    
-        void OnClick(int position);
-    }
+          void OnClick(int position);
+        }
 	
  2.属性介绍
  
@@ -127,7 +120,6 @@
         this.bindData(list, flag, null);
      }
 
-
      public void bindIntengerData(@NonNull List<Integer> list, PagerAdapter adapter) {
         this.bindData(list, flag, adapter);
      }
@@ -146,14 +138,14 @@
  	<com.zdm.guidview.GuidView
         android:id="@+id/guid_view"
         android:layout_width="match_parent"
-        android:layout_height="360px"   //banner的高度
-       	app:dotMaginBottom="30px"       //小圆点距离下方的距离
-        app:dotSize="20px"              //小圆点的大小
-        app:showDot="true"              //是否显示小圆点
-        app:dotLayoutHight="30px"       //小圆点布局的高度，默认是wrap_content
-        app:dotLayoutShowMode="center"  //小圆点显示居中
-        app:dotMaginLeft="10px"         //小圆点的左间距
-        app:isBanner="true"             //是否为banner
+        android:layout_height="360px"   
+       	app:dotMaginBottom="30px"       
+        app:dotSize="20px"             
+        app:showDot="true"              
+        app:dotLayoutHight="30px"       
+        app:dotLayoutShowMode="center"  
+        app:dotMaginLeft="10px"         
+        app:isBanner="true"             
         app:dotLayoutWidth="match_parent"/>
 	
    在你觉得合适的地方设置 banner切换的时间和开始轮播
