@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--此为默认属性，可不设置，若有需求可自定义或引用第三方库
+        app:dotNormal="@drawable/dot_normal_shape"
+        app:dotSelect="@drawable/dot_select_shape"
+    -->
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dotMaginBottom="100px"
+        app:dotNormal="@drawable/dot_normal_shape"
+        app:dotSelect="@drawable/dot_select_shape"
+        app:dotSize="20px"
+        app:showDot="true"/>
+
+
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

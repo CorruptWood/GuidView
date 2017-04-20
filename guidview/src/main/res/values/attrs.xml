@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GuidView">
+        <!--是否显示小圆点-->
+        <attr name="showDot" format="boolean"/>
+        <!--圆点的大小-->
+        <attr name="dotSize" format="dimension"/>
+        <!--小圆点布局距离下方的距离  px-->
+        <attr name="dotMaginBottom" format="dimension"/>
+        <!--小圆点布局显示位置  默认居中-->
+        <attr name="dotLayoutShowMode" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+        <!--小圆点布局长度   默认wrap_content-->
+        <attr name="dotLayoutWidth" format="enum">
+            <enum name="match_parent" value="0"/>
+
+            <enum name="wrap_content" value="1"/>
+        </attr>
+        <!--小圆点布局高度   默认wrap_content-->
+        <attr name="dotLayoutHight" format="dimension"/>
+        <!--小圆点之间的距离 距离左侧距离 -->
+        <attr name="dotMaginLeft" format="dimension"/>
+        <!--小圆点选中和未选中的资源Id-->
+        <attr name="dotNormal" format="reference"/>
+        <attr name="dotSelect" format="reference"/>
+        <!--是否用于banner图  默认false-->
+        <attr name="isBanner" format="boolean"/>
+
+    </declare-styleable>
+</resources>

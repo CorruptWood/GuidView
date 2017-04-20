@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view"
+        android:layout_width="match_parent"
+        android:layout_height="360px"
+        app:dotMaginBottom="30px"
+        app:dotSize="20px"
+        app:showDot="true"
+        app:dotLayoutHight="30px"
+        app:dotLayoutShowMode="center"
+        app:dotMaginLeft="10px"
+        app:isBanner="true"
+        app:dotLayoutWidth="match_parent"/>
+
+</LinearLayout>

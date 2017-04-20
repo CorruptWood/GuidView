@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dotLayoutHight="30px"
+        app:dotLayoutShowMode="center"
+        app:dotLayoutWidth="match_parent"
+        app:dotMaginBottom="100px"
+        app:dotMaginLeft="10px"
+        app:dotSize="20px"
+        app:showDot="true"/>
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150px"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="跳转"
+        android:textColor="#fff"
+        android:textSize="32px"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!--此为默认属性，可不设置，若有需求可自定义或引用第三方库
+      app:dotNormal="@drawable/dot_normal_shape"
+      app:dotSelect="@drawable/dot_select_shape"
+  -->
+    <com.zdm.guidview.GuidView
+        android:id="@+id/guid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dotMaginBottom="100px"
+        app:dotNormal="@drawable/dot_normal_shape"
+        app:dotSelect="@drawable/dot_select_shape"
+        app:dotSize="20px"
+        app:showDot="true"
+        app:dotLayoutHight="30px"
+        app:dotLayoutShowMode="left"
+        app:dotLayoutWidth="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zdm.guideview.MainActivity">
+
+
+    <TextView
+        android:gravity="center"
+        android:textSize="32px"
+        android:text="引导页"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="引导页无小圆点,加载网络图片"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="引导页有小圆点"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="引导页有小圆点，居左"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="引导页有小圆点，居右"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+    <TextView
+        android:id="@+id/text_view5"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="引导页有小圆点，居中"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+
+    <TextView
+        android:id="@+id/text_view6"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="引导页滑动到最后一张滑动跳转页面"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+    <TextView
+        android:id="@+id/text_view7"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="引导页滑动到最后一张，显示跳转按钮"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+    <TextView
+        android:id="@+id/text_view8"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="banner图"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+
+    <TextView
+        android:id="@+id/text_view9"
+        android:paddingLeft="20px"
+        android:gravity="center_vertical"
+        android:textSize="28px"
+        android:text="属性综合展示"
+        android:layout_width="match_parent"
+        android:layout_height="80px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e5e5e5"/>
+</LinearLayout>
