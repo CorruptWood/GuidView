@@ -53,34 +53,34 @@
   同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
     
     
-        interface OnPagerChangerListener {
+         	interface OnPagerChangerListener {
 
-          void onPageScrolled(int position, float positionOffset, int positionOffsetPixels);
+          		void onPageScrolled(int position, float positionOffset, int positionOffsetPixels);
 
-          void onPageSelected(int position);
+          		void onPageSelected(int position);
 
-          void onPageScrollStateChanged(int state);
+         	 	void onPageScrollStateChanged(int state);
 	  
-        }
+        	}
 
    简化版的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
     
     
-        interface OnPageSelectedListener {
+        	interface OnPageSelectedListener {
 	
-          void onPageSelected(int position);
+         		 void onPageSelected(int position);
 	  
-        }
+      		  }
 
   设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
     
     
-        interface OnViewPagerItemClickListener{
+        	interface OnViewPagerItemClickListener{
     
-          void OnClick(int position);
+          		void OnClick(int position);
 	  
-        }
-	
+      		  }
+		
  2.属性介绍
  
  	<declare-styleable name="GuidView">
