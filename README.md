@@ -50,7 +50,7 @@
 	
        }
     
-   同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
+  同ViewPager的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
     
     
         interface OnPagerChangerListener {
@@ -60,22 +60,25 @@
           void onPageSelected(int position);
 
           void onPageScrollStateChanged(int state);
+	  
         }
 
    简化版的OnPagerChangerListener，便于添加其他需要监听ViewPager变化的控件
     
     
         interface OnPageSelectedListener {
-    
+	
           void onPageSelected(int position);
+	  
         }
 
-   设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
+  设置viewPager页面点击事件 比如轮播图点击图片，跳转页面
     
     
         interface OnViewPagerItemClickListener{
     
           void OnClick(int position);
+	  
         }
 	
  2.属性介绍
